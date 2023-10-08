@@ -19,6 +19,12 @@ module.exports = {
         veryPaleRed: "hsl(13,100%,96%)",
         veryLightGray: "hsl(0,0%,98%)",
       },
+      maxWidth: {
+        custom: "100px", // You can use any value you want
+      },
+      // maxHeight: {
+      //   custom: "50px",
+      // },
     },
   },
   plugins: [],

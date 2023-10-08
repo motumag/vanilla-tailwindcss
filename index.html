@@ -8,8 +8,10 @@
     <title>llm</title>
   </head>
   <body>
-    <!-- Navbar part -->
-    <nav class="relative container mx-auto p-6">
+    <!-- Navbar part 
+        we can use relative container mx-auto border-b-4 border-brightRedLight also
+    -->
+    <nav class="relative container mx-auto">
       <!-- Flex container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
@@ -21,14 +23,53 @@
           />
         </div>
         <!-- Menu -->
-        <div class="hidden md:flex space-x-6">
-          <a href="#">Pricing</a>
-          <a href="#">Products</a>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Comunity</a>
+        <div class="hidden md:flex space-x-12">
+          <a href="#" class="hover:text-darkGreyishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGreyishBlue">Products</a>
+          <a href="#" class="hover:text-darkGreyishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGreyishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGreyishBlue">Comunity</a>
         </div>
+        <!-- Button -->
+        <a
+          href="#"
+          class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed baseline rounded-full hover:bg-brightRedLight"
+          >Get Started</a
+        >
       </div>
     </nav>
+    <!-- Hero section -->
+    <section id="hero">
+      <div
+        class="flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
+      >
+        <div class="flex flex-col mb-12 space-y-12 md:w-1/2">
+          <h1 class="text-4xl">
+            Bring everyone together to build better products.
+          </h1>
+          <p class="max-w-sm text-center text-darkGreyishBlue md:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            omnis numquam maxime ipsum ipsam, eaque quos quasi provident tempora
+            tempore incidunt minima fuga alias placeat et, iure itaque voluptas
+            aliquam.
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <a
+              href="#"
+              class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed baseline rounded-full hover:bg-brightRedLight"
+              >Get Started</a
+            >
+          </div>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia illo
+            vero magni explicabo obcaecati voluptatum, blanditiis aspernatur
+            deserunt nam atque, assumenda laboriosam eligendi rerum natus
+            suscipit dolorem rem omnis? Similique.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
